@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Golden Orchard Villas",
+    "price": "359,208,000",
+    "detail": "9 Crescent Avenue, Close to Nigerian Presidential Villa, Maitama District, Abuja, Nigeria",
+    "image": "./prop1.jpg"
+  },
+  {
+    "name": "Golden Orchard Villas",
+    "price": "166,980,000",
+    "detail": "9 Crescent Avenue, Close to Nigerian Presidential Villa, Maitama District, Abuja, Nigeria",
+    "image": "./prop2.jpg"
+  },
+  {
+    "name": "Sunset Villas",
+    "price": "835,730,000",
+    "detail": "33 Peace Lane, Off 1st Avenue, Close to Gwarinpa Estate Park, Gwarinpa, Abuja, Nigeria",
+    "image": "./prop3.jpg"
+  },
+  {
+    "name": "Emerald Gardens",
+    "price": "17,250,000",
+    "detail": "45 Rosewood Crescent, Opposite Ikeja City Mall, GRA Ikeja, Lagos, Nigeria",
+    "image": "./prop4.jpg"
+  },
+  {
+    "name": "Serenity Heights",
+    "price": "13,570,000",
+    "detail": "12 Maple Grove, Off Admiralty Way, Lekki Phase 1, Lagos, Nigeria",
+    "image": "./prop5.jpg"
+  },
+  {
+    "name": "Blue Horizon Apartments",
+    "price": "12,860,00",
+    "detail": "21 Liberty Way, Off Chevron Drive, Lekki Peninsula, Lagos, Nigeria",
+    "image": "./prop6.jpg"
+  }
+]
