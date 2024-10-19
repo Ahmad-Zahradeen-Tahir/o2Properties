@@ -19,10 +19,11 @@ const Footer = () => {
             Shagari plaza area 1, Abuja, Nigeria.
           </span>
           <div className="flexCenter f-menu">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
             <a href="#residencies">Residencies</a>
             <a href="#value">Why Us</a>
             <a href="#contact-us">Contact Us</a>
-            <a href="#get-started">Get Started</a>
           </div>
         </div>
       </div>

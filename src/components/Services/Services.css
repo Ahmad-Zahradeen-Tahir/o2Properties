@@ -1,0 +1,117 @@
+.services-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .services-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #D3A844; /* Adjust color to match your style */
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .service-image-wrapper {
+    position: relative;
+  }
+  
+  .service-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .service-icon-overlay {
+    position: absolute;
+    bottom: -40px; /* Adjust to make the icon sit on the border */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .service-icon {
+    font-size: 2.5rem;
+    color: #D3A844; /* Adjust the icon color to match your design */
+  }
+  
+  .service-content {
+    padding: 40px 20px 20px; /* Adjust padding to accommodate the semi-circle */
+  }
+  
+  .service-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #192A56; /* Adjust for style */
+  }
+  
+  .service-description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .service-read-more {
+    font-weight: bold;
+    color: #F79E1B; /* Adjust for style */
+    text-decoration: none;
+  }
+  
+  .service-read-more:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .services-title {
+      font-size: 1.75rem;
+    }
+  
+    .service-card {
+      max-width: 100%;
+    }
+  
+    .service-icon-overlay {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .service-icon {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .services-title {
+      font-size: 1.5rem;
+    }
+  
+    .service-icon-overlay {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .service-icon {
+      font-size: 1.75rem;
+    }
+  }
+  

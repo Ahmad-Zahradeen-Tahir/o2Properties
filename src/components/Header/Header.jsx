@@ -4,7 +4,6 @@ import { BiMailSend, BiMenuAltRight } from "react-icons/bi";
 import { getMenuStyles } from "../../utils/common";
 import useHeaderColor from "../../hooks/useHeaderColor";
 import OutsideClickHandler from "react-outside-click-handler";
-import { MdMail, MdMailOutline } from "react-icons/md";
 import { BsMailbox, BsMailbox2 } from "react-icons/bs";
 
 const Header = () => {
@@ -28,10 +27,11 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
             <a href="#residencies">Residencies</a>
             <a href="#value">Why Us</a>
             <a href="#contact-us">Contact Us</a>
-            <a href="#get-started">Get Started</a>
             <button className="button">
               <a
                 style={{

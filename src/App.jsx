@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./components/About/About";
 import Companies from "./components/Companies/Companies";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
@@ -6,6 +7,7 @@ import GetStarted from "./components/GetStarted/GetStarted";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Residencies from "./components/Residencies/Residencies";
+import Services from "./components/Services/Services";
 import Value from "./components/Value/Value";
 
 function App() {
@@ -16,11 +18,13 @@ function App() {
         <Header />
         <Hero />
       </div>
-      <Residencies/>
-      <Value/>
-      <Contact/>
-      <GetStarted/>
-      <Footer/>
+      <About />
+      <Services />
+      <Residencies />
+      <Value />
+      <Contact />
+      <GetStarted />
+      <Footer />
     </div>
   );
 }

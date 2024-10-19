@@ -28,7 +28,7 @@ const Hero = () => {
             <span>Forget all difficulties in finding a residence for you</span>
           </div>
 
-          <a href="#residencies" className="flexCenter search-bar">
+          <a href="#about" className="flexCenter search-bar">
             Learn more
             {/* <HiLocationMarker color="var(--blue)" size={25} />
             <input type="text" />

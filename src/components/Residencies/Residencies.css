@@ -21,14 +21,14 @@
   height: 10rem;
   max-width: 15rem;
 }
-.r-card > :nth-child(2) {
+.r-card > :nth-child(1) {
   font-size: 1.2rem;
   font-weight: 600;
 }
-.r-card > :nth-child(3) {
+.r-card > :nth-child(2) {
   font-size: 1.5rem;
 }
-.r-card > :nth-child(4) {
+.r-card > :nth-child(3) {
   font-size: 0.7rem;
   width: 15rem;
 }
