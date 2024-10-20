@@ -7,7 +7,7 @@ const servicesData = [
     title: "CONSTRUCTION",
     description:
       "Turning blueprints into reality requires a combination of skill, precision, and dedication. Our construction team embodies these qualities, working tirelessly to bring architectural visions to life. We are committed to executing projects with the highest quality standards, adhering to timelines, and delivering results that exceed expectations.",
-    imgSrc: "cnstrtn.jpg",
+    imgSrc: "./cnstrtn.jpg",
     icon: <FaBuilding />, // FontAwesome icon for construction
     readMoreLink: "#"
   },
@@ -15,7 +15,7 @@ const servicesData = [
     title: "REAL ESTATE",
     description:
       "Understanding the nuances of the real estate landscape is crucial to delivering value to our clients. Our real estate experts possess an in-depth knowledge of market trends, investment opportunities, and property management. We specialize in identifying properties with exceptional potential, ensuring that each investment aligns with our clients' goals and aspirations.",
-    imgSrc: "prop4.jpg",
+    imgSrc: "./prop4.jpg",
     icon: <FaHome />, // FontAwesome icon for real estate
     readMoreLink: "#"
   },
@@ -23,7 +23,7 @@ const servicesData = [
     title: "ARCHITECTURAL DESIGN",
     description:
       "We believe that architecture has the power to transcend the ordinary and evoke emotions. Our architectural designs tell stories, capturing the essence of a place and its purpose. Whether it's crafting awe-inspiring commercial structures, innovative residential complexes, or transformative public spaces, we consistently push boundaries to create landmarks that inspire admiration.",
-    imgSrc: "sld1.jpeg",
+    imgSrc: "./sld1.jpeg",
     icon: <FaDraftingCompass />, // FontAwesome icon for architectural design
     readMoreLink: "#"
   }
