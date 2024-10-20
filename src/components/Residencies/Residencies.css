@@ -1,7 +1,6 @@
 .r-container {
   gap: 2rem;
   position: relative;
-  overflow: hidden;
 }
 
 .r-head{
@@ -18,6 +17,7 @@
 
 .r-card > img {
   width: 100%;
+  margin: 0 auto;
   height: 10rem;
   max-width: 15rem;
 }
@@ -27,6 +27,7 @@
 }
 .r-card > :nth-child(2) {
   font-size: 1.5rem;
+  text-align: center;
 }
 .r-card > :nth-child(3) {
   font-size: 0.7rem;
