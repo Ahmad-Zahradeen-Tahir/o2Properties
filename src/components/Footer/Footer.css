@@ -9,6 +9,12 @@
     margin-top: 1.5rem;
     font-weight: 500;
 }
+
+.info{
+    display: flex;
+    gap: 10px;
+}
+
 @media (max-width: 768px) {
     .f-container{
         justify-content: center;
