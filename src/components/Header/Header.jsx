@@ -27,12 +27,52 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#residencies">Residencies</a>
-            <a href="#value">Why Us</a>
-            <a href="#contact-us">Contact Us</a>
-            <button className="button">
+            <a
+              onClick={() => {
+                setMenuOpened(false);
+              }}
+              href="#about"
+            >
+              About
+            </a>
+            <a
+              onClick={() => {
+                setMenuOpened(false);
+              }}
+              href="#services"
+            >
+              Services
+            </a>
+            <a
+              onClick={() => {
+                setMenuOpened(false);
+              }}
+              href="#residencies"
+            >
+              Residencies
+            </a>
+            <a
+              onClick={() => {
+                setMenuOpened(false);
+              }}
+              href="#value"
+            >
+              Why Us
+            </a>
+            <a
+              onClick={() => {
+                setMenuOpened(false);
+              }}
+              href="#contact-us"
+            >
+              Contact Us
+            </a>
+            <button
+              onClick={() => {
+                setMenuOpened(false);
+              }}
+              className="button"
+            >
               <a
                 style={{
                   display: "flex",
