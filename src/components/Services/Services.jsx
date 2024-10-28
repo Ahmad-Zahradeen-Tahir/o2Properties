@@ -15,7 +15,7 @@ const servicesData = [
     title: "REAL ESTATE",
     description:
       "Understanding the nuances of the real estate landscape is crucial to delivering value to our clients. Our real estate experts possess an in-depth knowledge of market trends, investment opportunities, and property management. We specialize in identifying properties with exceptional potential, ensuring that each investment aligns with our clients' goals and aspirations.",
-    imgSrc: "./prop4.jpg",
+    imgSrc: "./estbnr.jpg",
     icon: <FaHome />, // FontAwesome icon for real estate
     readMoreLink: "#"
   },
